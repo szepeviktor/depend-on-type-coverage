@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07cb6b26bf49cbe2c05d609badd340b9",
+    "content-hash": "b5b4e05c19fc1638a649f3aeb91b0888",
     "packages": [],
     "packages-dev": [
         {
@@ -95,16 +95,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.6",
+            "version": "1.10.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "50d089a3e0904b0fe7e2cf2d4fd37d427d64235a"
+                "reference": "b10ceb526d9607903c5b2673f1fc8775dbe48975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/50d089a3e0904b0fe7e2cf2d4fd37d427d64235a",
-                "reference": "50d089a3e0904b0fe7e2cf2d4fd37d427d64235a",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b10ceb526d9607903c5b2673f1fc8775dbe48975",
+                "reference": "b10ceb526d9607903c5b2673f1fc8775dbe48975",
                 "shasum": ""
             },
             "require": {
@@ -133,8 +133,11 @@
                 "static analysis"
             ],
             "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.10.6"
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
             },
             "funding": [
                 {
@@ -150,25 +153,25 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-09T16:55:12+00:00"
+            "time": "2023-03-16T15:24:20+00:00"
         },
         {
             "name": "tomasvotruba/type-coverage",
-            "version": "0.1.0.72",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TomasVotruba/type-coverage.git",
-                "reference": "a758f18c028c8625976f6458914f61cd021cfdb0"
+                "reference": "3a4061029c845ebecffe360efab5ecd706018ca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TomasVotruba/type-coverage/zipball/a758f18c028c8625976f6458914f61cd021cfdb0",
-                "reference": "a758f18c028c8625976f6458914f61cd021cfdb0",
+                "url": "https://api.github.com/repos/TomasVotruba/type-coverage/zipball/3a4061029c845ebecffe360efab5ecd706018ca0",
+                "reference": "3a4061029c845ebecffe360efab5ecd706018ca0",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^3.2",
-                "php": "^7.2 || 8.0.*",
+                "php": "^7.2 || ^8.0",
                 "phpstan/phpstan": "^1.9.3"
             },
             "type": "phpstan-extension",
@@ -195,7 +198,7 @@
             ],
             "support": {
                 "issues": "https://github.com/TomasVotruba/type-coverage/issues",
-                "source": "https://github.com/TomasVotruba/type-coverage/tree/0.1.0.72"
+                "source": "https://github.com/TomasVotruba/type-coverage/tree/0.1.1"
             },
             "funding": [
                 {
@@ -207,7 +210,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-03-12T10:30:01+00:00"
+            "time": "2023-03-17T19:31:37+00:00"
         }
     ],
     "aliases": [],
